@@ -219,8 +219,6 @@ function hydrateAntCheckboxes(element) {
     }
 }
 
-
-
 document.getElementById('task-list').addEventListener('click', function(event) {
     // Check if the clicked element is a checkbox
     if (event.target.type === 'checkbox' ) {
